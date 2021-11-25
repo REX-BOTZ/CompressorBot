@@ -333,7 +333,7 @@ async def customenc(e, key):
     er = stderr.decode()
     try:
         if er:
-            await e.edit(str(er) + "\n\n**ERROR** Contact @danish_00")
+            await e.edit(str(er) + "\n\n**ERROR** Contact @Rex_Bots_Support")
             COUNT.remove(e.chat_id)
             os.remove(dl)
             return os.remove(out)
